@@ -1,5 +1,6 @@
-The lab consisted of creating a directory file and loading coded programs into it. Following this I ran the code through Msys2.
-Notes: 
+### The lab consisted of creating a directory file and loading coded programs into it. Following this I ran the code through Msys2.
+
+### Notes: 
   1) If using Msys2 terminal, you must change the application properties target to include usage of the full path.
           1) open Msys terminal
           2) Go to the file location and right click
