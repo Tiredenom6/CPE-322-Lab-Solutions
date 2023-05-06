@@ -18,7 +18,7 @@ This lab has a few requirnments in order to complete it.
           1) $ pacman -S python3
           2) $ pacman -S python3-pip
           
- ## Steps 
+ ## Steps and Output of each step
 1)      $ cd ~/iot
 
 2)      $ cd *3
