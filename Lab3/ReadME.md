@@ -13,10 +13,12 @@ This lab has a few requirnments in order to complete it.
                     2) pip install astral
                     3) pip install geopy
  ## Notes
- If an error occurs when making this lab, try using these two commands in the Msys2 terminal 
+ 1) If an error occurs when making this lab, try using these two commands in the Msys2 terminal.
  
           1) $ pacman -S python3
           2) $ pacman -S python3-pip
+          
+ 2) To check downloaded packages use pip list and it will display all downloaded packages.
           
  ## Steps and Output of each step
 1)      $ cd ~/iot
