@@ -10,4 +10,13 @@ Notes:
  2) To change the file path, go to environment variables - advanced and then click on path under system variables. 
  3) Add the Downloaded files to your path. 
  4) you can copy the cloned repository form the lab into your Msys home file location manually if you have trouble with the following command 
-          i) cp ~/dsd/ghdl/*vhdl .
+                                     cp ~/dsd/ghdl/*vhdl .
+                                     
+                                  
+                                  
+                                      Adder Demonstration 
+ ![](Lab%201/Half%20adder.png)
+                                      
+          
+          
+   
