@@ -21,14 +21,24 @@ The mkdir demo allows you to make a new directory (folder) with the name of the 
 ## $ cd demo
 This terminal command builds on the previous commands. Because when you make a directory using mkdir, the directory is made in your current path. You do not need to branch to the folder its in because you are already in it. " cd demo " allows you to enter into demo. 
 ## $ nano file
-
+The nano file command opens the nano editor. Nano is a line based code editor that allows you to edit files from the terminal. 
 ## $ cat file
+The cat file command allows you print in standard output the file parameter to the terminal. You can additionally inlcude a dash " - " for standard input. 
 ## $ cp file file1
+The cp terminal command allows you copy a file from a location and write it to a directory. Additionally as viewed in the above instance, it can be used to copy and write one file to another. The contents of file will be copied to file1. 
 ## $ mv file file2
+The mv command allows you to move a file to different file paths. In this instance file will be moved to file2 or into the same path of file. If there is already a file with that name the file will add a 2 after it. 
 ## $ rm file2
+The terminal command rm allows you to remove a non-directory type file that the command calls. In this case, file2 is that non directory type file and file2 will be removed from its current path. This can be useful when moving or replacing files in the terminal.  
 ## $ clear
+The clear command clears the terminal of all previously written commands. It will clear the terminal windows and any output that is generated from them. 
 ## $ man uname
+The man terminal command displays the manual page for a command. In this case the terminal command is asking for the manual page of uname. uname is the command for displaying the name and version of the running operating system as well as additional information such as processor type and hostname. 
 ## $ uname -a
+As previously mentioned the uname command will provide information about the system. When an additional argument is prompted, the output will change. In this instance the command will output a series of information including system kernel name, network node hostname, system release version, system version, machine hardware name as well as the operating system name and version. 
 ## $ ifconfig
+The terminal command ifconfig assigns an address to a network interface for the ability to configure or display the current network interface configuration information. 
 ## $ ping localhost
+The terminal command ping allows you ping a server or network with the address. This has been configured to ping the localhost, essentially pining your computer.
 ## $ netstat
+The netstat terminal command will print in standard form statistics about your active networks. This will provide the status of your protocols. 
