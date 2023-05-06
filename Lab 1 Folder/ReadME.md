@@ -14,8 +14,7 @@ Notes:
                                      
                                   
                                   
-                                                            Adder Demonstration 
-                            ![Half adder](https://user-images.githubusercontent.com/123853548/236642894-15fbaa98-11b4-4fea-b0c5-7f5dfc3548af.PNG)
+
 
           
           
