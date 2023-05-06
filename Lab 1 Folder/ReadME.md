@@ -13,7 +13,35 @@ Notes:
                                      cp ~/dsd/ghdl/*vhdl .
                                      
                                   
-                                  
+ ### To run the dff.vhdl or D flip flop file use the following commands in terminal 
+```sh
+$ ghdl -a tff.vhdl
+$ ghdl -a tff_tb.vhdl
+$ ghdl -e tff_tb
+$ ghdl -r tff_tb --vcd=tff.vcd
+$ gtkwave tff.vcd
+```
+
+### To run the adder.vhdl or the Full adder use the following commands in terminal 
+```sh
+$ ghdl -a adder.vhdl
+$ ghdl -a adder_tb.vhdl
+$ ghdl -e adder_tb
+$ ghdl -r adder_tb --vcd=adder.vcd
+adder_tb.vhdl:54:5:@8ns(assertion note): end of test
+$ gtkwave adder.vcd
+```
+
+### To run the ha.vhdl or the half adder use the following commands in terminal  
+```sh
+$ ghdl -a ha.vhdl
+$ ghdl -a ha_tb.vhdl
+$ ghdl -e ha_tb
+$ ghdl -r ha_tb --vcd=ha.vcd
+ha_tb.vhdl:47:5:@5ns:(assertion error): Reached end of test
+$ gtkwave ha.vcd
+```
+
                                   
                     To see the products of the assignemnt, please see the PNG files, Photos will not regsiter with commands.
                                   
