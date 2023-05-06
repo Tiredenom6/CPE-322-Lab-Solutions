@@ -14,6 +14,9 @@ Notes:
                                      
                                   
                                   
+                                  
+                    To see the products of the assignemnt, please see the PNG files, Photos will not regsiter with commands.
+                                  
 
 
           
