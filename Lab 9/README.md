@@ -28,4 +28,4 @@
           $ python3 -m plantuml intrusiondetection.uml
           
 ## Results
-The result of this code is the creation of a png file called intrusiondetection.png which is available for viewing in the folder.  
+The result of this code is the creation of a png file called intrusiondetection.png which is available for viewing in the folder. The terminal can also be seen. 
