@@ -3,6 +3,7 @@
 ## Notes
 1) Like in previosu labs, the use of sudo is not required in Msys2 and the commands can be preformed without it.
 2) There are common issues with installing psutil
+
         1) Install Wheel
         2) To chekc to see why it fails use $ python -m pip show requests and download the missing packages.
         3) use cygwin to download the missing package
