@@ -1,5 +1,7 @@
 ## Lab 2 - Command Lines
-To test these command Lines use a terminal such as Windows Terminal, Gitbash, or Msys2
+To test these command Lines use a terminal such as Windows Terminal, Gitbash, or Msys2. These are essential commands that are used throughtout all of computer software feilds and is pivitol for use of many systems. 
+
+
 ## $ hostname
 The command hostname will print the systems DNS name. When called without arguments the command will print out the current system name. For instance my host name is DESKTOP-PL9I9BC
 ## $ env
