@@ -100,9 +100,14 @@ This lab has a few requirnments in order to complete it.
         
 11)     $ python3 cpu.py
         Output:
-        
+        The utilization per second as a percentage for each CPU
+            [22.1, 4.2, 13.1, 11.5, 22.3, 13.3, 6.9, 45.6]
+            [14.3, 5.5, 13.3, 13.3, 23.2, 11.2, 22.9, 56.6]
+            [55.2, 13.6, 12.4, 12.4, 44.5, 64.8, 49.2, 31.7]
+            [22.3, 46.4, 55.4, 66.2, 12.1, 23.5, 12.7, 18.9]
         
 12)     $ python3 battery.py
+                 This command would not run despite numerous efforts 
 
 13)     $ python3 documentstats.py document.txt
          Output: 
