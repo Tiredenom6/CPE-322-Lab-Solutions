@@ -5,10 +5,14 @@
 2) There are common issues with installing psutil
 
         1) Install Wheel
-        2) To chekc to see why it fails use $ python -m pip show requests and download the missing packages.
-        3) use cygwin to download the missing package
-        4) pacman -S mingw-w64-x86_64-python-psutil to download if using msys2. 
-        5) Uninstall python and pip and reinstall to avoid msys error. It is not supported for Msys or MINGWIN
+        
+        3) To chekc to see why it fails use $ python -m pip show requests and download the missing packages.
+        
+        4) use cygwin to download the missing package
+        
+        5) pacman -S mingw-w64-x86_64-python-psutil to download if using msys2. 
+        
+        6) Uninstall python and pip and reinstall to avoid msys error. It is not supported for Msys or MINGWIN
 
 ## Steps for ThingSpeak Demonstration
 1) Run the following commands to install psutil and to connect your computer to Thingspeak
