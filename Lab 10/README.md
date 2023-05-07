@@ -113,7 +113,52 @@ Hash: bc14bd8f13be3de69300ea3678aba55ecf793deb190600aba3c3e6be6e6be9d4
 Block #20 has been added to the blockchain!
 Hash: baaa03ef5726f67022f24df7f7e24701fd5893fe5d46bbd037694722e7f521e1
 
+## Steps for running Snakecoin-server-full-code.py
+1) Open a second terminal so that two are open, both are necessary.
 
+2) On Terminal one run the following commands
+
+                    $ cat snakecoin-server-full-code.py
+                    
+                    $ python3 snakecoin-server-full-code.py
+                    
+                    $ cd  
+
+3) On Terminal two run the following commands
+
+                    $ curl "localhost:5000/txion" \-H "Content-Type: application/json" \ -d '{"from": "akjflw", "to":"fjlakdj", "amount": 3}'
+                    
+                    $ curl localhost:5000/mine
+
+4) Visit the web address http://127.0.0.1:5000/ to view your program
+ 
+The results of this can be found in the folder above named Snake Server.PNG as well as the terminal output Snake Server Terminal.PNG. 
+
+## Steps for changing the code
+1) Again open up two terminals. 
+
+2) On the first terminal uncomment the last line of node_server.py with the commands bellow,
+
+                    $ git clone https://github.com/satwikkansal/python_blockchain_app.git
+                    
+                    $ cd ~/python_blockchain_app
+                    
+                    $ nano node_server.py
+                    
+                    $ python3 node_server.py
+
+3) On the second terminal run the following code,
+
+                    $ vncserver
+                    
+                    $ cd ~/python_blockchain_app
+                    
+                    $ python3 run_app.py
+                    
+4) Then visit the address http://127.0.0.1:5000 to view results
 
 ## Results
-The result of this code is the creation of a png file 
+The results of this is a website that can be seen in the Yournet.png image and the mined blockchains in the Mined.png in this folder. 
+The Yournet created shows who made a blockchain and the mined shows the most recent blockchain mined. 
+
+
