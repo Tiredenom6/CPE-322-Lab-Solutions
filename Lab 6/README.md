@@ -20,6 +20,7 @@ This lab requires you to download Node.js at the following link " https://nodejs
 This will output Hello world to the address http://127.0.0.1:3000/ in a web page
 
 3) Run the next command 
+
             $ node hello.js
 
 This will output Hello world! to the address http://127.0.0.1:8080/ in a web page. However this will return in standard output a message everytime the page is accessed. 
