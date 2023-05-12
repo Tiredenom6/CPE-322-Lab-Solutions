@@ -1,2 +1,3 @@
-# cpe322 
-This is my course notes
+# CPE - 322 Labs and other work repository
+
+
